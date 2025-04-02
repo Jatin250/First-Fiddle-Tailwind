@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About: First-Fiddle</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="w-full md:bg-[#00000082] bg-amber-400 text-white fixed">
+        <div class="flex items-center p-[12px] justify-between">
+            <!-- mobile logo -->
+            <img class="cursor-pointer w-[65px] hidden md:flex" src="../assets/logo.png" alt="">
+            <!-- laptop logo -->
+            <img class="flex md:hidden" src="../assets/logo-for-mobile.png" alt="">
+            <div class="hidden md:flex font-light lg:gap-[25px] sm:gap-[20px] gap-[15px]">
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="home.html">HOME</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="about.html">ABOUT</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="brand.html">BRAND</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="our-team.html">OUR TEAM</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="press-release.html">PRESS
+                    RELEASE</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="contact.html">CONTACT</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="careers.html">CAREERS</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] border-[1px] border-amber-400 duration-300"
+                    href="home.html">FRANCHISE</a>
+            </div>
+            <button id="menu-btn" class="md:hidden text-3xl text-white focus:outline-none">
+                &#9776;
+            </button>
+        </div>
+        <div id="mobile-menu"
+            class="hidden md:hidden flex flex-col space-y-2 p-4 font-light text-white duration-700 text-center bg-amber-400">
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="home.html">HOME</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="about.html">ABOUT</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="brand.html">BRAND</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="our-team.html">OUR TEAM</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="press-release.html">PRESS
+                RELEASE</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="contact.html">CONTACT</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="careers.html">CAREERS</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] border-[1px] border-amber-400 duration-300"
+                href="home.html">FRANCHISE</a>
+        </div>
+    </header>
+
+    <!-- our story section -->
+    <section class="w-full h-[650px] bg-[url(../assets/ourimage.jpg)] flex justify-center items-center px-[10px]">
+        <div>
+            <h1 class="text-white font-[prague] uppercase text-[60px] select-none text-center">Our Story</h1>
+        </div>
+    </section>
+
+    <!-- once upon section -->
+    <section class="w-full bg-white text-black">
+        <h1 class="font-[prague] uppercase text-center sm:text-[32px] text-[25px] tracking-[3px] pt-[20px]">Once Upon
+            <span class="text-amber-400 font-bold">An Affaire</span>
+        </h1>
+        <div
+            class="max-w-[1320px] pt-[25px] px-[15px] mx-auto grid sm:grid-cols-[60%_auto] grid-cols-1 gap-[40px] justify-items-center">
+            <div class="flex flex-col items-center">
+                <p class="leading-[35px] tracking-[1px] pr-[5px] text-justify [word-spacing:1px]">First First Fiddle
+                    Restaurants, formerly known as The Lazeez Affaire Group, was conceived in the year 1999 by Priyank
+                    Sukhija and Y.P. Ashok. Since then, the company has made a name for itself as innovators and leaders
+                    in the industry. Starting with their first brand, Lazeez Affaire, Priyank popularised the conceptof
+                    fine dining at a time when the same was unheard of. Following its success, First Fiddle introduced
+                    the concept of casual dining with brands such as Warehouse Cafe, Tamasha, Lord of The Drinks, Flying
+                    Saucer Cafe, and more, storming Delhi’s nightlife. WIth each new brand, First Fiddle brought a
+                    concept that was never experienced or heard of before, such as Plum by Bent Chair, Miso Sexy,
+                    Diablo, and more. The restaurants are spread all over India in major metropolitan cities like New
+                    Delhi, Mumbai, Pune, Lucknow and more, with plans to expand internationally soon.</p>
+            </div>
+            <img src="../assets/first.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- game changer section -->
+    <section class="bg-[url(../assets/gamebanner.jpg)] w-full py-[100px_10px] mt-[40px]">
+        <div class="text-white max-w-[970px] px-[10px] mx-auto flex flex-col gap-[10px] items-center">
+            <h1 class="text-center sm:text-[40px] text-[30px] leading-[35px] tracking-[1px] [word-spacing:1px]">The Game
+                changer</h1>
+            <p class="text-center font-light leading-[40px] tracking-[1px] pb-[40px] [word-spacing:1px] mt-[10px]">The
+                company is
+                dedicated
+                to being a game changer in the F&B industry with the introduction of ‘concept’ restaurants. It is
+                committed to catering to the ever-changing cosmopolitan taste of its customers & customer satisfaction
+                is an utmost priority.</p>
+        </div>
+    </section>
+
+    <!-- the man behind section -->
+    <section class="w-full bg-white text-black">
+        <h1 class="font-[prague] uppercase text-center sm:text-[40px] text-[30px] tracking-[3px] pt-[50px]">The Man
+            <span class="text-amber-400 font-bold">Behind The Fiddle</span>
+        </h1>
+        <div
+            class="max-w-[1320px] py-[50px] px-[15px] mx-auto grid sm:grid-cols-[30%_auto] grid-cols-1 gap-[40px] justify-items-center">
+            <img class="w-full md:order-1 order-2" src="../assets/priyank.jpg" alt="">
+            <div class="flex flex-col items-center justify-items-center md:order-2 order-1">
+                <p class="leading-[35px] font-light tracking-[1px] text-justify [word-spacing:1px]">With over
+                    30 restaurants in 23 years under his belt, the prolific restaurateur Priyank Sukhija has become
+                    somewhat of a legend in the industry, starting his journey at a mere age of 19. Priyank was the
+                    first in his family to venture into business, hailing from a family of lawyers, going on to create
+                    an empire in F&B. Following his heart and tongue through his F&B career, Priyank has successfully
+                    created some of the most talked-about brands in the industry - Diablo, Lord of the Drinks, Plum by
+                    Bent Chair, Lazeez Affaire, Tamasha, The Flying Saucer Cafe, and many more.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- join our family section -->
+    <section class="w-full bg-white text-black">
+        <h1 class="font-[prague] uppercase text-center sm:text-[32px] text-[25px] tracking-[3px] pt-[20px]">Join
+            <span class="text-amber-400 font-bold">Our family</span>
+        </h1>
+        <div
+            class="max-w-[1320px] py-[30px] px-[15px] mx-auto grid sm:grid-cols-[60%_auto] grid-cols-1 gap-[40px] justify-items-center">
+            <div class="flex flex-col items-start">
+                <p class="leading-[35px] tracking-[1px] pr-[5px] text-justify [word-spacing:1px]">At First Fiddle
+                    Restaurants, we leave no stone unturned to provide the most desirable experience across markets and
+                    restaurants. Serving over five lakh customers monthly with 15+ brands and 35+ restaurants, our
+                    brands like Diablo, Plum by Bent Chair, Dragonfly Experience, Tamasha, Daddy, JLWA, and more have
+                    revolutionized the experience of dining & nightlife for everyone. Exploring a franchise with First
+                    Fiddle Restaurants provides you with a large existing customer base besides the added advantage of
+                    nation-wide recognition.
+                </p>
+                <button
+                    class="uppercase cursor-pointer sm:my-[50px] my-[25px] bg-amber-400 text-white rounded-[5px] text-[18px] p-[8px_15px]">Join
+                    the
+                    journey</button>
+            </div>
+            <img class="w-[490px]" src="../assets/our-family.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="w-full">
+        <div class="bg-[#111215] text-white px-[14px]">
+            <div
+                class="max-w-[1170px] mx-auto py-[40px] grid sm:grid-cols-[35%_auto] grid-cols-1 items-center gap-[10px]">
+                <img class="sm:w-[280px] w-[230px]" src="../assets/logo.png" alt="">
+                <div class="flex flex-col gap-[40px]">
+                    <div>
+                        <h1 class="text-amber-400 font-[prague] text-[40px] tracking-[3px]">CONTACT <span
+                                class="text-white">US</span></h1>
+                        <p class="text-[18px] leading-[30px] [word-spacing:1px]">We're a team focusing on
+                            redefining the way the
+                            hospitality industry
+                            works by bringing in
+                            concept
+                            based restaurants across India. We are truly committed to catering to the ever-changing
+                            cosmopolitan taste of the customer and revolutioning the F & B industry!</p>
+                    </div>
+                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-[5px]">
+                        <div>
+                            <h3 class="text-amber-400 font-[prague] uppercase text-[16px] tracking-[3px] pb-1.5">Address
+                            </h3>
+                            <p>S-357 2nd floor, Block S, Panchsheel Park South, Panchsheel Park, New Delhi, Delhi 110017
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-amber-400 font-[prague] uppercase text-[16px] tracking-[3px] pb-1.5">Enquiry
+                            </h3>
+                            <p>Email: <span class="text-amber-400">customercare@firstfiddle.in</span></p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 py-[20px]">
+                        <i class="fa-brands fa-facebook sm:text-[40px] text-[30px] text-amber-400"></i>
+                        <i class="fa-brands fa-instagram sm:text-[40px] text-[30px] text-amber-400"></i>
+                        <i class="fa-brands fa-whatsapp sm:text-[40px] text-[30px] text-amber-400"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-black text-white px-[14px]">
+            <p class="max-w-[680px] mx-auto font-[250] py-[8px] uppercase ">EMPLOYEE POLICIES |PRIVACY POLICY |TERMS AND
+                CONDITIONS
+                | BLOG
+                | APP COPYRIGHT © 2021
+                FIRST FIDDLE F&B
+                PRIVATE LIMITED</p>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+    const menuBtn = document.getElementById("menu-btn")
+    const mobileMenu = document.getElementById("mobile-menu")
+    menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden")
+    })
+</script>
+
+</html>

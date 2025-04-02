@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact: First-Fiddle</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="w-full md:bg-[#00000082] bg-amber-400 text-white fixed">
+        <div class="flex items-center p-[12px] justify-between">
+            <!-- mobile logo -->
+            <img class="cursor-pointer w-[65px] hidden md:flex" src="../assets/logo.png" alt="">
+            <!-- laptop logo -->
+            <img class="flex md:hidden" src="../assets/logo-for-mobile.png" alt="">
+            <div class="hidden md:flex font-light lg:gap-[25px] sm:gap-[20px] gap-[15px]">
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="home.html">HOME</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="about.html">ABOUT</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="brand.html">BRAND</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="our-team.html">OUR TEAM</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="press-release.html">PRESS
+                    RELEASE</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="contact.html">CONTACT</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="careers.html">CAREERS</a>
+                <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] border-[1px] border-amber-400 duration-300"
+                    href="home.html">FRANCHISE</a>
+            </div>
+            <button id="menu-btn" class="md:hidden text-3xl text-white focus:outline-none">
+                &#9776;
+            </button>
+        </div>
+        <div id="mobile-menu"
+            class="hidden md:hidden flex flex-col space-y-2 p-4 font-light text-white duration-700 text-center bg-amber-400">
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="home.html">HOME</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="about.html">ABOUT</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="brand.html">BRAND</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="our-team.html">OUR TEAM</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="press-release.html">PRESS
+                RELEASE</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="contact.html">CONTACT</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] duration-300" href="careers.html">CAREERS</a>
+            <a class="text-[15px] hover:bg-amber-400 p-[6px_8px] border-[1px] border-amber-400 duration-300"
+                href="home.html">FRANCHISE</a>
+        </div>
+    </header>
+
+    <!-- contact us section -->
+    <section class="w-full h-[650px] bg-[url(../assets/CONTACT-US.jpg)] flex justify-center items-center px-[10px]">
+        <div>
+            <h1 class="text-white font-[prague] uppercase text-[60px] select-none text-center">Contact Us</h1>
+        </div>
+    </section>
+
+    <!-- contact form & info section -->
+    <section class="w-full">
+        <div class="max-w-[1320px] mx-auto grid md:grid-cols-2 grid-cols-1 gap-[40px] py-[40px] px-[15px] text-black">
+            <div class="flex justify-center">
+                <div class="w-full p-[10px]">
+                    <h3 class="text-[24px] uppercase font-light pb-[20px]">Send Us Message</h3>
+                    <form action="">
+                        <div class="flex flex-col mb-[22px]">
+                            <input class="border-[1px] outline-none border-gray-300 rounded-[4px] py-[5px] pl-[10px]"
+                                type="text" placeholder="Name*">
+                        </div>
+                        <div class="flex flex-col mb-[22px]">
+                            <input class="border-[1px] outline-none border-gray-300 rounded-[4px] py-[5px] pl-[10px]"
+                                type="email" placeholder="Email*">
+                        </div>
+                        <div class="flex flex-col mb-[22px]">
+                            <input class="border-[1px] outline-none border-gray-300 rounded-[4px] py-[5px] pl-[10px]"
+                                type="tel" placeholder="Phone*">
+                        </div>
+                        <div class="flex flex-col mb-[22px]">
+                            <input class="border-[1px] outline-none border-gray-300 rounded-[4px] py-[5px] pl-[10px]"
+                                type="text" placeholder="Message*">
+                        </div>
+                    </form>
+                    <button
+                        class="cursor-pointer my-[5px] bg-amber-500 hover:bg-amber-400 duration-300 text-white rounded-[5px] text-[18px] p-[8px_15px]">Submit
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col gap-[20px]">
+                <div class="w-full pt-[10px]">
+                    <h3 class="text-[24px] uppercase font-light pb-[20px]">Contact Info</h3>
+                    <div class="flex flex-col gap-[10px]">
+                        <h4 class="text-amber-500 text-[18px]">Address</h4>
+                        <p class="font-light leading-[20px] tracking-[1px] [word-spacing:1px]">6, Chanakyapuri Shopping
+                            Complex, 48, Malcha
+                            Marg, New
+                            Delhi 110021</p>
+                        <h4 class="text-amber-500 text-[18px]">For Franchise Enquiry</h4>
+                        <p class="font-light">MOBILE: <span class="text-amber-500 text-[18px]">+91 9313663486</span></p>
+                        <p class="font-light">EMAIL: <span
+                                class="text-amber-500 text-[18px]">franchise@firstfiddle.in</span></p>
+                        <h4 class="text-amber-500 text-[18px]">For HR Enquiry</h4>
+                        <p class="font-light">MOBILE: <span class="text-amber-500 text-[18px]">+91 9999304427</span></p>
+                        <p class="font-light">EMAIL: <span class="text-amber-500 text-[18px]">hr@firstfiddle.in</span>
+                        </p>
+                        <h4 class="text-amber-500 text-[18px]">For Other Enquiry</h4>
+                        <p class="font-light">PHONE: <span class="text-amber-500 text-[18px]">7676380000</span></p>
+                        <p class="font-light">EMAIL: <span
+                                class="text-amber-500 text-[18px]">customercare@firstfiddle.in</span></p>
+                        <p class="font-light">Open: Monday - Saturday 10:30 - 19:30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="w-full">
+        <div class="bg-[#111215] text-white px-[14px]">
+            <div
+                class="max-w-[1170px] mx-auto py-[40px] grid sm:grid-cols-[35%_auto] grid-cols-1 items-center gap-[10px]">
+                <img class="sm:w-[280px] w-[230px]" src="../assets/logo.png" alt="">
+                <div class="flex flex-col gap-[40px]">
+                    <div>
+                        <h1 class="text-amber-400 font-[prague] text-[40px] tracking-[3px]">CONTACT <span
+                                class="text-white">US</span></h1>
+                        <p class="text-[18px] leading-[30px] [word-spacing:1px]">We're a team focusing on
+                            redefining the way the
+                            hospitality industry
+                            works by bringing in
+                            concept
+                            based restaurants across India. We are truly committed to catering to the ever-changing
+                            cosmopolitan taste of the customer and revolutioning the F & B industry!</p>
+                    </div>
+                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-[5px]">
+                        <div>
+                            <h3 class="text-amber-400 font-[prague] uppercase text-[16px] tracking-[3px] pb-1.5">Address
+                            </h3>
+                            <p>S-357 2nd floor, Block S, Panchsheel Park South, Panchsheel Park, New Delhi, Delhi 110017
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-amber-400 font-[prague] uppercase text-[16px] tracking-[3px] pb-1.5">Enquiry
+                            </h3>
+                            <p>Email: <span class="text-amber-400">customercare@firstfiddle.in</span></p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 py-[20px]">
+                        <i class="fa-brands fa-facebook sm:text-[40px] text-[30px] text-amber-400"></i>
+                        <i class="fa-brands fa-instagram sm:text-[40px] text-[30px] text-amber-400"></i>
+                        <i class="fa-brands fa-whatsapp sm:text-[40px] text-[30px] text-amber-400"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-black text-white px-[14px]">
+            <p class="max-w-[680px] mx-auto font-[250] py-[8px] uppercase ">EMPLOYEE POLICIES |PRIVACY POLICY |TERMS AND
+                CONDITIONS
+                | BLOG
+                | APP COPYRIGHT © 2021
+                FIRST FIDDLE F&B
+                PRIVATE LIMITED</p>
+        </div>
+    </footer>
+
+</body>
+
+<script>
+    const menuBtn = document.getElementById("menu-btn")
+    const mobileMenu = document.getElementById("mobile-menu")
+    menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden")
+    })
+</script>
+
+</html>
